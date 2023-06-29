@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
     <link rel="stylesheet" href="game.css">
-    <title>GAME</title>
+    <title>QUIZ</title>
 </head>
 <body>
+
     <header>
         <nav>
             <!-- <ul class="menu"> -->
                 <li><img src="Assets/Logos/logohome.png" class="logo" alt="logo"></li>
                 <li class="home"><a href="index.html">HOME </a> </li>
-                <li> <a href="">GAME</a>  </li>
+                <li> <a href="quiz.html">GAME</a>  </li>
             <!-- </ul> -->
         </nav>
         <div class="tete">
@@ -38,14 +40,31 @@
         </section>
     </header>
     
-    <section>
-        <div>
-        <p class="chevalier"> CONNAISSEZ VOUS BIEN LE CHEVALIER NOIR </p>
-        <p><img src="Illustrations/Batgame_2.png" alt="chevalier noir"></p> <br>
-        <p ><a href="quiz.html"><button class="demarrer">DEMARRER LE QUIZ</button></a></p>
-        </div>
-    </section>
+    
 
+    <div class="app">
+        <h1>Simple Quiz</h1>
+        <div class="quiz">
+            <h2 id="question">les questions</h2>
+            <div id="answer-button">
+                <button class="boutton">reponse 1</button>
+                <button class="boutton">reponse 2</button>
+                <button class="boutton">reponse 3</button>
+                <button class="boutton">reponse 4</button>
+                <button class="boutton">reponse 5</button>
+                <button class="boutton">reponse 6</button>
+                <button class="boutton">reponse 7</button>
+                <button class="boutton">reponse 8</button>
+                <button class="boutton">reponse 9</button>
+                <button class="boutton">reponse 10</button>
+                <button class="boutton">reponse 11</button>
+                <button class="boutton">reponse 12</button>
+                
+                
+            </div>
+            <button id="suivant">SUIVANT</button>
+        </div>
+    </div>
 
     <footer>
         <p><img src="Assets/Logos/icon_WB.png " alt=""> Ce projet respecte l'univers cinématographiques des films
@@ -60,5 +79,7 @@
         <img src="Assets/Logos/icon_tw.png " alt=""> &nbsp;
     </p>
     </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>

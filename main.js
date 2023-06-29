@@ -207,6 +207,7 @@ const questions = [
 const questionElement = document.getElementById("question");
 const answerButton = document.getElementById("answer-button");
 const nextButton = document.getElementById("suivant");
+const numero = document.getElementById("numero")
 
 let questionCourant = 0;
 let score = 0;
@@ -222,7 +223,10 @@ function showquestion(){
     resetState();
     let questionCourant = questions[questionCourantIndex];
     let numQuestion = questionCourantIndex +1;
+    numero.innerHTML = numQuestion + "/"+ questions.length;
     questionElement.innerHTML = numQuestion + "." + questionCourant.question;
+
+    
 
    questionCourant.response.forEach(answer => {
         const button = document.createElement("button");

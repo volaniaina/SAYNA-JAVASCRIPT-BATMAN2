@@ -1,0 +1,249 @@
+header{
+    /*background-color:red;*/
+    background-image:url(Assets/Illustrations/Bathome1.png);
+    text-align: justify;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    padding: 5%;
+    width: 1000px;
+    height: 600px;
+    /*border: 1px solid white;*/
+    
+
+}
+.paragraphe1{
+    padding-top: 20%;
+    
+}
+.fleche{
+    padding-top: 15%;
+}
+.chevalier{
+    font-size: 200%;
+}
+
+.demarrer{
+    width: 230px;
+    height: 40px;
+    background-color: rgba(233, 137, 48, 0.863);
+    
+}
+
+footer{
+    text-align: center;
+}
+
+.logo:hover{
+    transform: scale(110%);
+    transition: .5s;
+}
+.logo{
+    transition: .5s;
+}
+
+body{
+    color: white;
+    text-align: justify;
+    background-color: black;
+    margin: auto;
+    width: 1111px;
+    padding: 5%;
+    border: solid white;
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    /*border: 2px solid rgb(80, 77, 75);*/
+}
+
+.menu-fixe{
+    position: fixed;
+    width: 70px;
+    right: 0;
+    margin: 5%;
+}
+
+
+.menu
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    border: 2px solid rgb(80, 77, 75);
+    
+}
+
+#heros{
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    width: 130px;
+    height: 40px;
+}
+#adversaire{
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    width: 130px;
+    height: 40px;
+}
+
+li{
+    color: white;
+    display: inline;
+    list-style: none;
+    font-style: unset;
+    
+}
+p{
+    color: white;
+    font-family: sans-serif;
+
+}
+
+
+.home{
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+section{
+    text-align: center;
+}
+figure{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+div.citation{
+    text-align: center;
+}
+div.formulaire{
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #c4c4c4;
+}
+p.centre{
+    text-align: center;
+    
+    color: white;
+    
+}
+figcaption{
+    text-align: center;
+}
+p.guil{
+    text-align: left;
+}
+p.guil2{
+    text-align: right;
+}
+div.entete{
+    text-align: center;
+}
+
+div.begins{
+    background-color:grey;
+}
+div.Bathome12{
+    text-align: right;
+}
+#confirmer{
+    color: white;
+    /*border:solid white;*/
+    background-color: red;
+    width: 200px;
+    height: 50px;
+}
+img.image{
+    float: left;
+}
+span{
+    color: yellow;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+#email{
+    color: white;
+    width: 800px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid white;
+    background: none;
+}
+
+.batman:hover{
+    transform: scale(110%);
+    transition: .5s;
+}
+.batman{
+    transition: .5s;
+}
+.nemesis:hover{
+    transform: scale(110%);
+    transition: .5s;
+}
+.nemesis{
+    transition: .5s;
+}
+.allies:hover{
+    transform: scale(110%);
+    transition: .5s;
+}
+.allies{
+    transition: .5s;
+}
+
+#freq{
+    width: 800px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid white;
+    background: none;
+    color: white; 
+}
+#com{
+    width: 800px;
+    height: 20px;
+    border: none;
+    border-bottom: 2px solid white;
+    background: none;
+    color: white; 
+}
+p.choixnews{
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    color: white;
+    width:100 ;
+    height: 50;
+    background: none;
+}
+#film{
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    width: 100px;
+    height: 30px;
+}
+#comics{
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    width: 100px;
+    height: 30px;
+}
+#tout{
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    width: 100px;
+    height: 30px;
+}
